@@ -1,6 +1,6 @@
-let a = true;
-let b = 1;
-let c = "text";
+const a = true;
+const b = 1;
+const c = "text";
 console.log(a + b, a + c, b + c);
 console.log(a * b, a * c, b * c);
 console.log(a / b, a / c, b / c);
