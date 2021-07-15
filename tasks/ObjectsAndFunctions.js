@@ -1,4 +1,4 @@
-let car = {
+const car = {
     colour: 'black'
 };
 
@@ -8,9 +8,9 @@ car.colour = "green"
 
 console.log(car.colour);
 
-car.power = CarPover()
+car.power = carPover()
 
-function CarPover() {
+function carPover() {
     console.log(200);
 }
 
@@ -22,9 +22,9 @@ console.log(fruits(10, 4));
 
 //Терминал
 let enterredName = prompt("Введите имя", "имя");
-let nameInTherminal = "Maks";
+const nameInTherminal = "Maks";
 function checkIfNameIsCorrect(enterredName) {
-    (enterredName == nameInTherminal) ? alert(`Привет ${nameInTherminal}!`) : alert("Нет такого имени")
+    (enterredName === nameInTherminal) ? alert(`Привет ${nameInTherminal}!`) : alert("Нет такого имени")
 }
 
 checkIfNameIsCorrect(enterredName);
@@ -40,7 +40,7 @@ function simpleNumber(num) {
     let i = 2;
     let check;
     while (i < num) {
-        if (num % i != 0) {
+        if (num % i !== 0) {
             check = 1
         } else {
             check = 0
@@ -48,7 +48,7 @@ function simpleNumber(num) {
         }
         i += 1
     }
-    (check == 1) ? console.log("Число простое") : console.log("Число не простое");
+    (check === 1) ? console.log("Число простое") : console.log("Число не простое");
 }
 
 simpleNumber(67);
