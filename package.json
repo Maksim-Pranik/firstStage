@@ -1,0 +1,15 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "studying ",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranik.M",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
