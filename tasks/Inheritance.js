@@ -1,7 +1,7 @@
-let animal = {
+const animal = {
     move: true
 }
-let cat = {
+const cat = {
     __proto__: animal
 }
 
