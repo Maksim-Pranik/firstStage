@@ -7,8 +7,8 @@ for (const film of arrayOfFilms) {
 
 //Массив в строку и обратно в массив
 const autoMakers = ['Peygiot', 'Ford', 'Tesla', 'MG', 'Rimac']
-let stringFromArray = autoMakers.toString()
-let stringToArray = stringFromArray.split(',')
+const stringFromArray = autoMakers.toString()
+const stringToArray = stringFromArray.split(',')
 
 console.log(stringFromArray);
 console.log(stringToArray);
@@ -16,7 +16,7 @@ console.log(stringToArray);
 //Добавление слова "Hello" к каждому слову массива
 const namesOfPeopleIKnow = ['Вика', 'Слава', 'Дмитрий', 'Евлампий', 'Аркадий']
 
-let grittingsFriends = namesOfPeopleIKnow.map(function (name) {
+const grittingsFriends = namesOfPeopleIKnow.map(function (name) {
   return 'Hello ' + name;
 });
 
@@ -24,7 +24,7 @@ console.log(grittingsFriends);
 
 //Числовой массив в boolean
 const arrayOfNumbers = [4, 8, 0, 87, 12]
-let booleanArray = arrayOfNumbers.map(function (num) {
+const booleanArray = arrayOfNumbers.map(function (num) {
   return Boolean(num)
 })
 console.log(booleanArray);
@@ -36,7 +36,7 @@ console.log(numbers)
 
 //Отфильтровать массив [1,6,7,8,3,4,5,6] по значению >3
 const numbersForCompare = [1, 6, 7, 8, 3, 4, 5, 6];
-let arrayWithNumberMoreThanThree = numbersForCompare.filter(num => num > 3);
+const arrayWithNumberMoreThanThree = numbersForCompare.filter(num => num > 3);
 console.log(arrayWithNumberMoreThanThree);
 
 //Написать функцию, которая принимает два параметра 
