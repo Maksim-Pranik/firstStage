@@ -15,13 +15,13 @@ function carPover() {
 }
 
 //Подсчет фркутов
-let fruits = (pear, apple) => pear + apple;
+const fruits = (pear, apple) => pear + apple;
 
 console.log(fruits(10, 4));
 
 
 //Терминал
-let enterredName = prompt("Введите имя", "имя");
+const enterredName = prompt("Введите имя", "имя");
 const nameInTherminal = "Maks";
 function checkIfNameIsCorrect(enterredName) {
     (enterredName === nameInTherminal) ? alert(`Привет ${nameInTherminal}!`) : alert("Нет такого имени")
