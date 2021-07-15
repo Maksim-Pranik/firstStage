@@ -8,7 +8,7 @@ const numExpressoin = '2+3 223 2223'.match(/2\+3/g);
 console.log(numExpressoin)
 
 //Получить день, месяц и год текущей даты и по отдельности вывести в консоль
-let now = new Date();
+const now = new Date();
 console.log('Год: ' + now.getFullYear())
 console.log('Месяц: ' + now.getMonth())
 console.log('День: ' + now.getDate())
