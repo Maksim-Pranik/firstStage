@@ -10,7 +10,7 @@ try {
 
 //При выполнении 1/0  выводить ошибку 'на ноль делить нельзя'
 try {
-  let wrongExpression = 1 / 0
+  const wrongExpression = 1 / 0
   if (wrongExpression = Infinity) {
     throw new Error('на ноль делить нельзя')
   }
