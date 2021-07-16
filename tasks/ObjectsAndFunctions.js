@@ -30,13 +30,13 @@ function checkIfNameIsCorrect(enterredName) {
 checkIfNameIsCorrect(enterredName);
 
 //Тип аргумента
-function typeOfArgument(arg) {
+function showTypeOfArgument(arg) {
     console.log(typeof arg);
 }
-typeOfArgument(true)
+showTypeOfArgument(true)
 
 //Простые числа
-function simpleNumber(num) {
+function checkIfItIsSimpleNumber(num) {
     let i = 2;
     let check;
     while (i < num) {
@@ -51,4 +51,4 @@ function simpleNumber(num) {
     (check === 1) ? console.log("Число простое") : console.log("Число не простое");
 }
 
-simpleNumber(67);
+checkIfItIsSimpleNumber(67);
